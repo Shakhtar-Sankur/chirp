@@ -1,0 +1,2058 @@
+{
+ "source": "GWOSC API v2, catalog GWTC-4.0 (O4a); search SNR = max over search pipelines, masses from the preferred PE set",
+ "retrieved": "2026-10-29",
+ "events": [
+  {
+   "name": "GW230518_125908",
+   "gps": 1368449966.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 14.1,
+   "far_min": 1e-05,
+   "chirp_mass_det": 2.94,
+   "chirp_mass_source": 2.8,
+   "mass_1_source": 8.17,
+   "mass_2_source": 1.45,
+   "redshift": 0.05,
+   "chi_eff": -0.01
+  },
+  {
+   "name": "GW230529_181500",
+   "gps": 1369419318.7,
+   "detectors": [
+    "L1"
+   ],
+   "snr_search_max": 11.8,
+   "far_min": 0.0058,
+   "chirp_mass_det": 2.0176,
+   "chirp_mass_source": 1.94,
+   "mass_1_source": 3.8,
+   "mass_2_source": 1.37,
+   "redshift": 0.04,
+   "chi_eff": -0.05
+  },
+  {
+   "name": "GW230531_141100",
+   "gps": 1369577478.3,
+   "detectors": [
+    "L1"
+   ],
+   "snr_search_max": 8.0,
+   "far_min": 3.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230601_224134",
+   "gps": 1369694512.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 13.4,
+   "far_min": 1e-05,
+   "chirp_mass_det": 72.16000000000001,
+   "chirp_mass_source": 45.1,
+   "mass_1_source": 64.0,
+   "mass_2_source": 44.0,
+   "redshift": 0.6,
+   "chi_eff": -0.03
+  },
+  {
+   "name": "GW230603_174756",
+   "gps": 1369849694.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.0,
+   "far_min": 8.4,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230605_065343",
+   "gps": 1369983241.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.4,
+   "far_min": 1e-05,
+   "chirp_mass_det": 14.459499999999998,
+   "chirp_mass_source": 11.95,
+   "mass_1_source": 17.4,
+   "mass_2_source": 11.0,
+   "redshift": 0.21,
+   "chi_eff": 0.06
+  },
+  {
+   "name": "GW230606_004305",
+   "gps": 1370047403.8,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.1,
+   "far_min": 0.00041,
+   "chirp_mass_det": 39.22,
+   "chirp_mass_source": 26.5,
+   "mass_1_source": 37.6,
+   "mass_2_source": 25.7,
+   "redshift": 0.48,
+   "chi_eff": -0.11
+  },
+  {
+   "name": "GW230606_024545",
+   "gps": 1370054763.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.5,
+   "far_min": 3.2,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230608_205047",
+   "gps": 1370292665.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.2,
+   "far_min": 0.0012,
+   "chirp_mass_det": 51.666000000000004,
+   "chirp_mass_source": 32.7,
+   "mass_1_source": 48.0,
+   "mass_2_source": 31.0,
+   "redshift": 0.58,
+   "chi_eff": 0.04
+  },
+  {
+   "name": "GW230609_010824",
+   "gps": 1370308122.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.0,
+   "far_min": 2.8,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230609_064958",
+   "gps": 1370328616.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.6,
+   "far_min": 0.00014,
+   "chirp_mass_det": 39.93600000000001,
+   "chirp_mass_source": 25.6,
+   "mass_1_source": 35.4,
+   "mass_2_source": 25.2,
+   "redshift": 0.56,
+   "chi_eff": -0.14
+  },
+  {
+   "name": "GW230615_160825",
+   "gps": 1370880524.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.9,
+   "far_min": 4.3,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230618_102550",
+   "gps": 1371119168.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.8,
+   "far_min": 49.00000000000001,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230624_113103",
+   "gps": 1371641481.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.4,
+   "far_min": 0.00017999999999999998,
+   "chirp_mass_det": 24.3,
+   "chirp_mass_source": 18.0,
+   "mass_1_source": 27.1,
+   "mass_2_source": 16.1,
+   "redshift": 0.35,
+   "chi_eff": 0.17
+  },
+  {
+   "name": "GW230624_214944",
+   "gps": 1371678602.5,
+   "detectors": [
+    "H1"
+   ],
+   "snr_search_max": 10.6,
+   "far_min": 2.2,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230625_211655",
+   "gps": 1371763033.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.1,
+   "far_min": 42.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230627_015337",
+   "gps": 1371866035.8,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 28.7,
+   "far_min": 1e-05,
+   "chirp_mass_det": 6.4414,
+   "chirp_mass_source": 6.02,
+   "mass_1_source": 8.4,
+   "mass_2_source": 5.74,
+   "redshift": 0.07,
+   "chi_eff": 0.02
+  },
+  {
+   "name": "GW230628_231200",
+   "gps": 1372029138.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 16.4,
+   "far_min": 1e-05,
+   "chirp_mass_det": 35.699999999999996,
+   "chirp_mass_source": 25.5,
+   "mass_1_source": 32.5,
+   "mass_2_source": 27.0,
+   "redshift": 0.4,
+   "chi_eff": -0.01
+  },
+  {
+   "name": "GW230630_070659",
+   "gps": 1372144037.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.8,
+   "far_min": 0.47000000000000003,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230630_125806",
+   "gps": 1372165104.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.0,
+   "far_min": 0.16,
+   "chirp_mass_det": 64.05,
+   "chirp_mass_source": 35.0,
+   "mass_1_source": 51.0,
+   "mass_2_source": 33.0,
+   "redshift": 0.83,
+   "chi_eff": 0.18
+  },
+  {
+   "name": "GW230630_234532",
+   "gps": 1372203950.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.9,
+   "far_min": 0.00042,
+   "chirp_mass_det": 8.542599999999998,
+   "chirp_mass_source": 7.06,
+   "mass_1_source": 10.0,
+   "mass_2_source": 6.6,
+   "redshift": 0.21,
+   "chi_eff": -0.04
+  },
+  {
+   "name": "GW230702_162025",
+   "gps": 1372350043.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.2,
+   "far_min": 6.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230702_185453",
+   "gps": 1372359311.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.1,
+   "far_min": 1e-05,
+   "chirp_mass_det": 32.976,
+   "chirp_mass_source": 22.9,
+   "mass_1_source": 40.0,
+   "mass_2_source": 18.0,
+   "redshift": 0.44,
+   "chi_eff": 0.05
+  },
+  {
+   "name": "GW230704_021211",
+   "gps": 1372471949.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.4,
+   "far_min": 0.21,
+   "chirp_mass_det": 32.193,
+   "chirp_mass_source": 21.9,
+   "mass_1_source": 32.6,
+   "mass_2_source": 20.0,
+   "redshift": 0.47,
+   "chi_eff": -0.01
+  },
+  {
+   "name": "GW230704_212616",
+   "gps": 1372541194.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.7,
+   "far_min": 0.51,
+   "chirp_mass_det": 115.36,
+   "chirp_mass_source": 56.0,
+   "mass_1_source": 89.0,
+   "mass_2_source": 50.0,
+   "redshift": 1.06,
+   "chi_eff": 0.27
+  },
+  {
+   "name": "GW230706_104333",
+   "gps": 1372675431.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.2,
+   "far_min": 0.23,
+   "chirp_mass_det": 15.930000000000001,
+   "chirp_mass_source": 11.8,
+   "mass_1_source": 16.3,
+   "mass_2_source": 11.5,
+   "redshift": 0.35,
+   "chi_eff": 0.19
+  },
+  {
+   "name": "GW230707_124047",
+   "gps": 1372768865.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.9,
+   "far_min": 0.0011,
+   "chirp_mass_det": 60.021,
+   "chirp_mass_source": 35.1,
+   "mass_1_source": 46.1,
+   "mass_2_source": 36.3,
+   "redshift": 0.71,
+   "chi_eff": -0.05
+  },
+  {
+   "name": "GW230708_053705",
+   "gps": 1372829843.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.9,
+   "far_min": 0.21999999999999997,
+   "chirp_mass_det": 34.41,
+   "chirp_mass_source": 22.2,
+   "mass_1_source": 29.1,
+   "mass_2_source": 22.7,
+   "redshift": 0.55,
+   "chi_eff": 0.06
+  },
+  {
+   "name": "GW230708_071859",
+   "gps": 1372835957.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.1,
+   "far_min": 1.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230708_230935",
+   "gps": 1372892993.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.0,
+   "far_min": 0.0037,
+   "chirp_mass_det": 67.734,
+   "chirp_mass_source": 42.6,
+   "mass_1_source": 64.0,
+   "mass_2_source": 40.0,
+   "redshift": 0.59,
+   "chi_eff": 0.01
+  },
+  {
+   "name": "GW230709_063445",
+   "gps": 1372919703.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.9,
+   "far_min": 15.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230709_122727",
+   "gps": 1372940865.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.2,
+   "far_min": 0.011,
+   "chirp_mass_det": 53.766,
+   "chirp_mass_source": 30.9,
+   "mass_1_source": 45.0,
+   "mass_2_source": 30.0,
+   "redshift": 0.74,
+   "chi_eff": 0.08
+  },
+  {
+   "name": "GW230712_090405",
+   "gps": 1373187863.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.5,
+   "far_min": 0.018,
+   "chirp_mass_det": 22.194,
+   "chirp_mass_source": 16.2,
+   "mass_1_source": 32.0,
+   "mass_2_source": 12.5,
+   "redshift": 0.37,
+   "chi_eff": -0.02
+  },
+  {
+   "name": "GW230717_102139",
+   "gps": 1373624517.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.3,
+   "far_min": 29.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230721_222634",
+   "gps": 1374013612.8,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.9,
+   "far_min": 4.1,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230723_084820",
+   "gps": 1374137318.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.4,
+   "far_min": 3.8999999999999995,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230723_101834",
+   "gps": 1374142732.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.1,
+   "far_min": 0.0034,
+   "chirp_mass_det": 14.82,
+   "chirp_mass_source": 11.4,
+   "mass_1_source": 16.6,
+   "mass_2_source": 10.6,
+   "redshift": 0.3,
+   "chi_eff": -0.18
+  },
+  {
+   "name": "GW230726_002940",
+   "gps": 1374366598.1,
+   "detectors": [
+    "L1"
+   ],
+   "snr_search_max": 10.5,
+   "far_min": 1e-05,
+   "chirp_mass_det": 37.264,
+   "chirp_mass_source": 27.2,
+   "mass_1_source": 35.6,
+   "mass_2_source": 27.9,
+   "redshift": 0.37,
+   "chi_eff": -0.02
+  },
+  {
+   "name": "GW230728_083628",
+   "gps": 1374568606.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 13.1,
+   "far_min": 1.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230729_082317",
+   "gps": 1374654215.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.5,
+   "far_min": 0.18,
+   "chirp_mass_det": 10.9254,
+   "chirp_mass_source": 8.34,
+   "mass_1_source": 12.3,
+   "mass_2_source": 7.6,
+   "redshift": 0.31,
+   "chi_eff": 0.12
+  },
+  {
+   "name": "GW230731_215307",
+   "gps": 1374875605.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 12.2,
+   "far_min": 1e-05,
+   "chirp_mass_det": 9.4916,
+   "chirp_mass_source": 7.78,
+   "mass_1_source": 10.3,
+   "mass_2_source": 7.9,
+   "redshift": 0.22,
+   "chi_eff": -0.05
+  },
+  {
+   "name": "GW230803_033412",
+   "gps": 1375068870.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.4,
+   "far_min": 0.31,
+   "chirp_mass_det": 54.29,
+   "chirp_mass_source": 30.5,
+   "mass_1_source": 44.0,
+   "mass_2_source": 29.0,
+   "redshift": 0.78,
+   "chi_eff": 0.07
+  },
+  {
+   "name": "GW230805_034249",
+   "gps": 1375242188.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.5,
+   "far_min": 0.0037,
+   "chirp_mass_det": 36.498000000000005,
+   "chirp_mass_source": 23.1,
+   "mass_1_source": 32.2,
+   "mass_2_source": 22.6,
+   "redshift": 0.58,
+   "chi_eff": 0.06
+  },
+  {
+   "name": "GW230806_204041",
+   "gps": 1375389659.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.4,
+   "far_min": 0.0037,
+   "chirp_mass_det": 66.056,
+   "chirp_mass_source": 35.9,
+   "mass_1_source": 51.0,
+   "mass_2_source": 35.0,
+   "redshift": 0.84,
+   "chi_eff": 0.08
+  },
+  {
+   "name": "GW230807_205045",
+   "gps": 1375476663.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.7,
+   "far_min": 2.9,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230811_032116",
+   "gps": 1375759294.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 13.6,
+   "far_min": 1e-05,
+   "chirp_mass_det": 33.258,
+   "chirp_mass_source": 24.1,
+   "mass_1_source": 35.4,
+   "mass_2_source": 22.3,
+   "redshift": 0.38,
+   "chi_eff": 0.03
+  },
+  {
+   "name": "GW230814_061920",
+   "gps": 1376029178.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.2,
+   "far_min": 0.00063,
+   "chirp_mass_det": 75.44000000000001,
+   "chirp_mass_source": 46.0,
+   "mass_1_source": 69.0,
+   "mass_2_source": 42.0,
+   "redshift": 0.64,
+   "chi_eff": 0.07
+  },
+  {
+   "name": "GW230814_230901",
+   "gps": 1376089759.8,
+   "detectors": [
+    "L1"
+   ],
+   "snr_search_max": 43.0,
+   "far_min": 1e-05,
+   "chirp_mass_det": 28.3868,
+   "chirp_mass_source": 26.78,
+   "mass_1_source": 33.7,
+   "mass_2_source": 28.2,
+   "redshift": 0.06,
+   "chi_eff": -0.01
+  },
+  {
+   "name": "GW230817_212349",
+   "gps": 1376342647.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.8,
+   "far_min": 6.2,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230819_171910",
+   "gps": 1376500768.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.9,
+   "far_min": 0.011,
+   "chirp_mass_det": 69.72,
+   "chirp_mass_source": 42.0,
+   "mass_1_source": 70.0,
+   "mass_2_source": 35.0,
+   "redshift": 0.66,
+   "chi_eff": -0.04
+  },
+  {
+   "name": "GW230820_212515",
+   "gps": 1376601934.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.3,
+   "far_min": 0.24,
+   "chirp_mass_det": 63.525,
+   "chirp_mass_source": 38.5,
+   "mass_1_source": 62.0,
+   "mass_2_source": 34.0,
+   "redshift": 0.65,
+   "chi_eff": 0.21
+  },
+  {
+   "name": "GW230822_230337",
+   "gps": 1376780635.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.3,
+   "far_min": 1.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230823_142524",
+   "gps": 1376835942.6,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.8,
+   "far_min": 1.6,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230824_033047",
+   "gps": 1376883065.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.1,
+   "far_min": 1e-05,
+   "chirp_mass_det": 64.206,
+   "chirp_mass_source": 36.9,
+   "mass_1_source": 53.0,
+   "mass_2_source": 36.0,
+   "redshift": 0.74,
+   "chi_eff": -0.01
+  },
+  {
+   "name": "GW230824_135331",
+   "gps": 1376920429.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.7,
+   "far_min": 6.2,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230825_041334",
+   "gps": 1376972032.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.8,
+   "far_min": 0.1,
+   "chirp_mass_det": 51.92,
+   "chirp_mass_source": 29.5,
+   "mass_1_source": 44.0,
+   "mass_2_source": 27.2,
+   "redshift": 0.76,
+   "chi_eff": 0.29
+  },
+  {
+   "name": "GW230830_064744",
+   "gps": 1377413282.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.5,
+   "far_min": 3.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230831_015414",
+   "gps": 1377482072.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.6,
+   "far_min": 0.29,
+   "chirp_mass_det": 54.339,
+   "chirp_mass_source": 30.7,
+   "mass_1_source": 42.0,
+   "mass_2_source": 30.0,
+   "redshift": 0.77,
+   "chi_eff": 0.04
+  },
+  {
+   "name": "GW230831_134621",
+   "gps": 1377524799.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.8,
+   "far_min": 12.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230902_122814",
+   "gps": 1377692912.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.1,
+   "far_min": 2.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230902_172430",
+   "gps": 1377710688.8,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.5,
+   "far_min": 39.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230902_224555",
+   "gps": 1377729973.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.5,
+   "far_min": 51.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230904_051013",
+   "gps": 1377839431.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.5,
+   "far_min": 3.9e-05,
+   "chirp_mass_det": 9.036,
+   "chirp_mass_source": 7.53,
+   "mass_1_source": 10.6,
+   "mass_2_source": 7.1,
+   "redshift": 0.2,
+   "chi_eff": 0.05
+  },
+  {
+   "name": "GW230904_152545",
+   "gps": 1377876363.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.2,
+   "far_min": 18.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230911_195324",
+   "gps": 1378497222.2,
+   "detectors": [
+    "H1"
+   ],
+   "snr_search_max": 11.1,
+   "far_min": 0.001,
+   "chirp_mass_det": 29.232,
+   "chirp_mass_source": 23.2,
+   "mass_1_source": 33.9,
+   "mass_2_source": 21.6,
+   "redshift": 0.26,
+   "chi_eff": -0.02
+  },
+  {
+   "name": "GW230914_111401",
+   "gps": 1378725259.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 17.2,
+   "far_min": 1e-05,
+   "chirp_mass_det": 58.50599999999999,
+   "chirp_mass_source": 39.8,
+   "mass_1_source": 60.0,
+   "mass_2_source": 37.0,
+   "redshift": 0.47,
+   "chi_eff": 0.12
+  },
+  {
+   "name": "GW230919_215712",
+   "gps": 1379195850.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 16.8,
+   "far_min": 1e-05,
+   "chirp_mass_det": 26.25,
+   "chirp_mass_source": 21.0,
+   "mass_1_source": 27.3,
+   "mass_2_source": 21.4,
+   "redshift": 0.25,
+   "chi_eff": 0.18
+  },
+  {
+   "name": "GW230920_064709",
+   "gps": 1379227647.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.5,
+   "far_min": 4.8,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230920_071124",
+   "gps": 1379229102.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.1,
+   "far_min": 1e-05,
+   "chirp_mass_det": 35.611,
+   "chirp_mass_source": 23.9,
+   "mass_1_source": 32.4,
+   "mass_2_source": 23.8,
+   "redshift": 0.49,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230922_020344",
+   "gps": 1379383442.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 13.4,
+   "far_min": 1e-05,
+   "chirp_mass_det": 38.252,
+   "chirp_mass_source": 29.2,
+   "mass_1_source": 39.3,
+   "mass_2_source": 29.2,
+   "redshift": 0.31,
+   "chi_eff": 0.03
+  },
+  {
+   "name": "GW230922_040658",
+   "gps": 1379390836.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 12.5,
+   "far_min": 1e-05,
+   "chirp_mass_det": 101.92,
+   "chirp_mass_source": 52.0,
+   "mass_1_source": 76.0,
+   "mass_2_source": 51.0,
+   "redshift": 0.96,
+   "chi_eff": 0.31
+  },
+  {
+   "name": "GW230924_124453",
+   "gps": 1379594711.8,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 13.5,
+   "far_min": 1e-05,
+   "chirp_mass_det": 31.666,
+   "chirp_mass_source": 22.3,
+   "mass_1_source": 28.8,
+   "mass_2_source": 23.2,
+   "redshift": 0.42,
+   "chi_eff": 0.02
+  },
+  {
+   "name": "GW230925_143957",
+   "gps": 1379688015.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.0,
+   "far_min": 8.2,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW230927_043729",
+   "gps": 1379824667.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 12.1,
+   "far_min": 1e-05,
+   "chirp_mass_det": 41.075,
+   "chirp_mass_source": 26.5,
+   "mass_1_source": 35.0,
+   "mass_2_source": 27.1,
+   "redshift": 0.55,
+   "chi_eff": 0.01
+  },
+  {
+   "name": "GW230927_153832",
+   "gps": 1379864330.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 20.3,
+   "far_min": 1e-05,
+   "chirp_mass_det": 20.1351,
+   "chirp_mass_source": 16.37,
+   "mass_1_source": 21.7,
+   "mass_2_source": 16.6,
+   "redshift": 0.23,
+   "chi_eff": 0.03
+  },
+  {
+   "name": "GW230928_215827",
+   "gps": 1379973525.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.5,
+   "far_min": 1.4999999999999999e-05,
+   "chirp_mass_det": 59.472,
+   "chirp_mass_source": 33.6,
+   "mass_1_source": 54.0,
+   "mass_2_source": 29.0,
+   "redshift": 0.77,
+   "chi_eff": 0.4
+  },
+  {
+   "name": "GW230930_110730",
+   "gps": 1380107268.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.0,
+   "far_min": 0.17,
+   "chirp_mass_det": 43.648,
+   "chirp_mass_source": 24.8,
+   "mass_1_source": 34.5,
+   "mass_2_source": 24.4,
+   "redshift": 0.76,
+   "chi_eff": 0.02
+  },
+  {
+   "name": "GW231001_140220",
+   "gps": 1380204158.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.5,
+   "far_min": 1.6e-05,
+   "chirp_mass_det": 79.22,
+   "chirp_mass_source": 46.6,
+   "mass_1_source": 76.0,
+   "mass_2_source": 41.0,
+   "redshift": 0.7,
+   "chi_eff": -0.04
+  },
+  {
+   "name": "GW231002_143916",
+   "gps": 1380292774.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.4,
+   "far_min": 1.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231004_232346",
+   "gps": 1380497044.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.9,
+   "far_min": 0.16,
+   "chirp_mass_det": 68.0,
+   "chirp_mass_source": 40.0,
+   "mass_1_source": 64.0,
+   "mass_2_source": 35.0,
+   "redshift": 0.7,
+   "chi_eff": -0.04
+  },
+  {
+   "name": "GW231005_021030",
+   "gps": 1380507049.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.4,
+   "far_min": 0.01,
+   "chirp_mass_det": 104.22000000000001,
+   "chirp_mass_source": 54.0,
+   "mass_1_source": 84.0,
+   "mass_2_source": 50.0,
+   "redshift": 0.93,
+   "chi_eff": 0.1
+  },
+  {
+   "name": "GW231005_091549",
+   "gps": 1380532567.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.0,
+   "far_min": 0.04,
+   "chirp_mass_det": 34.506,
+   "chirp_mass_source": 21.3,
+   "mass_1_source": 28.8,
+   "mass_2_source": 21.2,
+   "redshift": 0.62,
+   "chi_eff": -0.03
+  },
+  {
+   "name": "GW231005_144455",
+   "gps": 1380552313.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.3,
+   "far_min": 60.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231008_142521",
+   "gps": 1380810339.8,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.3,
+   "far_min": 0.0016,
+   "chirp_mass_det": 43.79,
+   "chirp_mass_source": 29.0,
+   "mass_1_source": 45.0,
+   "mass_2_source": 25.6,
+   "redshift": 0.51,
+   "chi_eff": -0.01
+  },
+  {
+   "name": "GW231013_135504",
+   "gps": 1381240522.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.4,
+   "far_min": 64.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231014_040532",
+   "gps": 1381291551.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.0,
+   "far_min": 0.21,
+   "chirp_mass_det": 21.299999999999997,
+   "chirp_mass_source": 15.0,
+   "mass_1_source": 20.6,
+   "mass_2_source": 14.7,
+   "redshift": 0.42,
+   "chi_eff": 0.18
+  },
+  {
+   "name": "GW231018_233037",
+   "gps": 1381707055.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.1,
+   "far_min": 0.68,
+   "chirp_mass_det": 10.191,
+   "chirp_mass_source": 7.9,
+   "mass_1_source": 11.6,
+   "mass_2_source": 7.3,
+   "redshift": 0.29,
+   "chi_eff": 0.01
+  },
+  {
+   "name": "GW231020_142947",
+   "gps": 1381847405.6,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 12.0,
+   "far_min": 1e-05,
+   "chirp_mass_det": 10.0068,
+   "chirp_mass_source": 8.07,
+   "mass_1_source": 12.0,
+   "mass_2_source": 7.4,
+   "redshift": 0.24,
+   "chi_eff": 0.14
+  },
+  {
+   "name": "GW231026_130704",
+   "gps": 1382360842.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.3,
+   "far_min": 1.7,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231028_153006",
+   "gps": 1382542224.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 22.4,
+   "far_min": 1e-05,
+   "chirp_mass_det": 105.84,
+   "chirp_mass_source": 63.0,
+   "mass_1_source": 94.0,
+   "mass_2_source": 59.0,
+   "redshift": 0.68,
+   "chi_eff": 0.45
+  },
+  {
+   "name": "GW231029_111508",
+   "gps": 1382613326.8,
+   "detectors": [
+    "L1"
+   ],
+   "snr_search_max": 10.8,
+   "far_min": 5.2000000000000004e-05,
+   "chirp_mass_det": 67.932,
+   "chirp_mass_source": 44.4,
+   "mass_1_source": 65.0,
+   "mass_2_source": 42.0,
+   "redshift": 0.53,
+   "chi_eff": 0.14
+  },
+  {
+   "name": "GW231102_052214",
+   "gps": 1382937752.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.9,
+   "far_min": 4.0,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231102_071736",
+   "gps": 1382944674.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 15.6,
+   "far_min": 1e-05,
+   "chirp_mass_det": 70.579,
+   "chirp_mass_source": 43.3,
+   "mass_1_source": 61.0,
+   "mass_2_source": 42.0,
+   "redshift": 0.63,
+   "chi_eff": 0.06
+  },
+  {
+   "name": "GW231102_232433",
+   "gps": 1383002691.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.6,
+   "far_min": 2.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231104_133418",
+   "gps": 1383140076.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.8,
+   "far_min": 1e-05,
+   "chirp_mass_det": 11.3152,
+   "chirp_mass_source": 8.84,
+   "mass_1_source": 12.2,
+   "mass_2_source": 8.6,
+   "redshift": 0.28,
+   "chi_eff": 0.14
+  },
+  {
+   "name": "GW231108_125142",
+   "gps": 1383483120.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 12.6,
+   "far_min": 1e-05,
+   "chirp_mass_det": 23.701000000000004,
+   "chirp_mass_source": 17.3,
+   "mass_1_source": 23.2,
+   "mass_2_source": 17.4,
+   "redshift": 0.37,
+   "chi_eff": -0.08
+  },
+  {
+   "name": "GW231110_040320",
+   "gps": 1383624218.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.5,
+   "far_min": 1e-05,
+   "chirp_mass_det": 18.090000000000003,
+   "chirp_mass_source": 13.4,
+   "mass_1_source": 19.4,
+   "mass_2_source": 12.6,
+   "redshift": 0.35,
+   "chi_eff": 0.17
+  },
+  {
+   "name": "GW231113_122623",
+   "gps": 1383913601.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.6,
+   "far_min": 0.28,
+   "chirp_mass_det": 43.524,
+   "chirp_mass_source": 27.9,
+   "mass_1_source": 39.8,
+   "mass_2_source": 26.4,
+   "redshift": 0.56,
+   "chi_eff": 0.33
+  },
+  {
+   "name": "GW231113_150041",
+   "gps": 1383922859.4,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.7,
+   "far_min": 1.7999999999999998,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231113_200417",
+   "gps": 1383941075.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.5,
+   "far_min": 3.8e-05,
+   "chirp_mass_det": 9.84,
+   "chirp_mass_source": 8.0,
+   "mass_1_source": 11.6,
+   "mass_2_source": 7.4,
+   "redshift": 0.23,
+   "chi_eff": 0.13
+  },
+  {
+   "name": "GW231114_043211",
+   "gps": 1383971549.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.0,
+   "far_min": 0.00013,
+   "chirp_mass_det": 14.616,
+   "chirp_mass_source": 11.6,
+   "mass_1_source": 22.8,
+   "mass_2_source": 8.2,
+   "redshift": 0.26,
+   "chi_eff": 0.08
+  },
+  {
+   "name": "GW231118_005626",
+   "gps": 1384304204.8,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.7,
+   "far_min": 1e-05,
+   "chirp_mass_det": 17.514,
+   "chirp_mass_source": 12.6,
+   "mass_1_source": 20.0,
+   "mass_2_source": 10.8,
+   "redshift": 0.39,
+   "chi_eff": 0.38
+  },
+  {
+   "name": "GW231118_071402",
+   "gps": 1384326860.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.2,
+   "far_min": 0.0047,
+   "chirp_mass_det": 51.207,
+   "chirp_mass_source": 30.3,
+   "mass_1_source": 43.0,
+   "mass_2_source": 29.0,
+   "redshift": 0.69,
+   "chi_eff": 0.12
+  },
+  {
+   "name": "GW231118_090602",
+   "gps": 1384333580.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.0,
+   "far_min": 1e-05,
+   "chirp_mass_det": 10.5336,
+   "chirp_mass_source": 8.36,
+   "mass_1_source": 12.9,
+   "mass_2_source": 7.4,
+   "redshift": 0.26,
+   "chi_eff": 0.08
+  },
+  {
+   "name": "GW231119_075248",
+   "gps": 1384415586.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.3,
+   "far_min": 0.019,
+   "chirp_mass_det": 68.655,
+   "chirp_mass_source": 34.5,
+   "mass_1_source": 49.0,
+   "mass_2_source": 33.0,
+   "redshift": 0.99,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231120_022103",
+   "gps": 1384482081.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.0,
+   "far_min": 3.8000000000000003,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231123_135430",
+   "gps": 1384782888.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 21.8,
+   "far_min": 1e-05,
+   "chirp_mass_det": 141.39999999999998,
+   "chirp_mass_source": 101.0,
+   "mass_1_source": 137.0,
+   "mass_2_source": 101.0,
+   "redshift": 0.4,
+   "chi_eff": 0.32
+  },
+  {
+   "name": "GW231126_010928",
+   "gps": 1384996186.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.1,
+   "far_min": 4.2,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231127_165300",
+   "gps": 1385139198.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.9,
+   "far_min": 0.01,
+   "chirp_mass_det": 51.983999999999995,
+   "chirp_mass_source": 30.4,
+   "mass_1_source": 45.0,
+   "mass_2_source": 28.0,
+   "redshift": 0.71,
+   "chi_eff": 0.05
+  },
+  {
+   "name": "GW231129_081745",
+   "gps": 1385281083.6,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.4,
+   "far_min": 0.056,
+   "chirp_mass_det": 45.036,
+   "chirp_mass_source": 27.8,
+   "mass_1_source": 45.0,
+   "mass_2_source": 23.8,
+   "redshift": 0.62,
+   "chi_eff": 0.03
+  },
+  {
+   "name": "GW231204_090648",
+   "gps": 1385716026.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.4,
+   "far_min": 3.5999999999999996,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231206_010629",
+   "gps": 1385860007.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.7,
+   "far_min": 6.8999999999999995,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231206_233134",
+   "gps": 1385940712.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 12.8,
+   "far_min": 1e-05,
+   "chirp_mass_det": 41.888,
+   "chirp_mass_source": 27.2,
+   "mass_1_source": 35.6,
+   "mass_2_source": 28.2,
+   "redshift": 0.54,
+   "chi_eff": -0.08
+  },
+  {
+   "name": "GW231206_233901",
+   "gps": 1385941159.5,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 21.9,
+   "far_min": 1e-05,
+   "chirp_mass_det": 36.096,
+   "chirp_mass_source": 28.2,
+   "mass_1_source": 37.6,
+   "mass_2_source": 28.5,
+   "redshift": 0.28,
+   "chi_eff": -0.05
+  },
+  {
+   "name": "GW231213_111417",
+   "gps": 1386501275.9,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.4,
+   "far_min": 1e-05,
+   "chirp_mass_det": 44.055,
+   "chirp_mass_source": 26.7,
+   "mass_1_source": 35.6,
+   "mass_2_source": 27.2,
+   "redshift": 0.65,
+   "chi_eff": 0.06
+  },
+  {
+   "name": "GW231220_173406",
+   "gps": 1387128864.2,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 7.9,
+   "far_min": 6.2,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231221_135041",
+   "gps": 1387201859.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.0,
+   "far_min": 0.54,
+   "chirp_mass_det": 53.32,
+   "chirp_mass_source": 31.0,
+   "mass_1_source": 47.0,
+   "mass_2_source": 29.0,
+   "redshift": 0.72,
+   "chi_eff": 0.01
+  },
+  {
+   "name": "GW231223_032836",
+   "gps": 1387337334.1,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 10.2,
+   "far_min": 0.00038,
+   "chirp_mass_det": 53.272999999999996,
+   "chirp_mass_source": 31.9,
+   "mass_1_source": 46.0,
+   "mass_2_source": 31.0,
+   "redshift": 0.67,
+   "chi_eff": -0.16
+  },
+  {
+   "name": "GW231223_075055",
+   "gps": 1387353073.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.4,
+   "far_min": 0.55,
+   "chirp_mass_det": 9.282,
+   "chirp_mass_source": 7.8,
+   "mass_1_source": 11.9,
+   "mass_2_source": 6.8,
+   "redshift": 0.19,
+   "chi_eff": 0.07
+  },
+  {
+   "name": "GW231223_202619",
+   "gps": 1387398397.0,
+   "detectors": [
+    "H1"
+   ],
+   "snr_search_max": 10.0,
+   "far_min": 0.002,
+   "chirp_mass_det": 9.853,
+   "chirp_mass_source": 8.35,
+   "mass_1_source": 11.1,
+   "mass_2_source": 8.3,
+   "redshift": 0.18,
+   "chi_eff": 0.1
+  },
+  {
+   "name": "GW231224_024321",
+   "gps": 1387421020.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 14.0,
+   "far_min": 1e-05,
+   "chirp_mass_det": 8.4847,
+   "chirp_mass_source": 7.13,
+   "mass_1_source": 9.3,
+   "mass_2_source": 7.31,
+   "redshift": 0.19,
+   "chi_eff": -0.01
+  },
+  {
+   "name": "GW231226_101520",
+   "gps": 1387620938.3,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 34.7,
+   "far_min": 1e-05,
+   "chirp_mass_det": 39.975,
+   "chirp_mass_source": 32.5,
+   "mass_1_source": 40.2,
+   "mass_2_source": 35.1,
+   "redshift": 0.23,
+   "chi_eff": -0.08
+  },
+  {
+   "name": "GW231230_170116",
+   "gps": 1387990895.0,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 8.2,
+   "far_min": 0.42,
+   "chirp_mass_det": 69.19,
+   "chirp_mass_source": 37.0,
+   "mass_1_source": 53.0,
+   "mass_2_source": 35.0,
+   "redshift": 0.87,
+   "chi_eff": -0.18
+  },
+  {
+   "name": "GW231231_120147",
+   "gps": 1388059325.6,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 11.3,
+   "far_min": 4.5,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW231231_154016",
+   "gps": 1388072434.7,
+   "detectors": [
+    "H1"
+   ],
+   "snr_search_max": 13.4,
+   "far_min": 1e-05,
+   "chirp_mass_det": 20.691000000000003,
+   "chirp_mass_source": 17.1,
+   "mass_1_source": 22.5,
+   "mass_2_source": 17.2,
+   "redshift": 0.21,
+   "chi_eff": -0.03
+  },
+  {
+   "name": "GW240104_164932",
+   "gps": 1388422190.6,
+   "detectors": [
+    "H1"
+   ],
+   "snr_search_max": 14.8,
+   "far_min": 1e-05,
+   "chirp_mass_det": 42.93000000000001,
+   "chirp_mass_source": 31.8,
+   "mass_1_source": 42.3,
+   "mass_2_source": 32.2,
+   "redshift": 0.35,
+   "chi_eff": 0.09
+  },
+  {
+   "name": "GW240105_151143",
+   "gps": 1388502721.2,
+   "detectors": [
+    "H1"
+   ],
+   "snr_search_max": 25.9,
+   "far_min": 3.3,
+   "chirp_mass_det": null,
+   "chirp_mass_source": null,
+   "mass_1_source": null,
+   "mass_2_source": null,
+   "redshift": null,
+   "chi_eff": null
+  },
+  {
+   "name": "GW240107_013215",
+   "gps": 1388626353.7,
+   "detectors": [
+    "H1",
+    "L1"
+   ],
+   "snr_search_max": 9.6,
+   "far_min": 0.028,
+   "chirp_mass_det": 68.996,
+   "chirp_mass_source": 36.7,
+   "mass_1_source": 59.0,
+   "mass_2_source": 33.0,
+   "redshift": 0.88,
+   "chi_eff": 0.32
+  },
+  {
+   "name": "GW240109_050431",
+   "gps": 1388811889.8,
+   "detectors": [
+    "H1"
+   ],
+   "snr_search_max": 10.4,
+   "far_min": 0.00022999999999999998,
+   "chirp_mass_det": 25.216,
+   "chirp_mass_source": 19.7,
+   "mass_1_source": 28.7,
+   "mass_2_source": 18.1,
+   "redshift": 0.28,
+   "chi_eff": -0.07
+  }
+ ]
+}
