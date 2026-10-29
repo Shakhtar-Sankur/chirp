@@ -47,7 +47,8 @@ collaboration's pipelines.
 **Stage 0, every two-detector O4a event in the catalog.** `notebooks/stage0_kaggle.py` ran the full bank
 (3886 templates) against all 76 GWTC-4.0 O4a events seen by both LIGO detectors with detector-frame chirp
 mass 5–200 M☉. Five were skipped because one detector's data has gaps. The 71 that remain were searched on
-one Kaggle Tesla T4 in 17 minutes. Raw output and per-event numbers: `results/stage0_kaggle_2026-10-29/`.
+one Kaggle Tesla T4 in 17 minutes ([public run](https://www.kaggle.com/code/sankurkundu/notebooke18924b056); two
+runs gave identical results). Raw output and per-event numbers: `results/stage0_kaggle_2026-10-29/`.
 
 | | result |
 |---|---|

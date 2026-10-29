@@ -1,8 +1,8 @@
+Kaggle notebook https://www.kaggle.com/code/sankurkundu/notebooke18924b056 (Tesla T4), notebooks/stage0_kaggle.py
 $ rm -rf chirp && git clone -q https://github.com/Shakhtar-Sankur/chirp
 $ /usr/bin/python3 -m pip install -q lalsuite h5py certifi
 $ nvidia-smi --query-gpu=name,memory.total --format=csv
 name, memory.total [MiB]
-Tesla T4, 15360 MiB
 Tesla T4, 15360 MiB
 76 two-detector events with detector-frame chirp mass 5-200; 3886 templates
 skip GW230608_205047: H1 has gaps
@@ -10,7 +10,7 @@ skip GW230628_231200: H1 has gaps
 skip GW230731_215307: L1 has gaps
 skip GW230819_171910: L1 has gaps
 skip GW231110_040320: H1 has gaps
-prepared 71 events in 48.6 min
+prepared 71 events in 44.6 min
 /kaggle/working/chirp/chirp/bank.py:23: UserWarning: Wswiglal-redir-stdio:
 SWIGLAL standard output/error redirection is enabled in IPython.
 This may lead to performance penalties. To disable locally, use:
@@ -28,21 +28,21 @@ import lal
   import lal
   templates 48/3886  0.2 min
   templates 288/3886  1.3 min
-  templates 528/3886  2.4 min
-  templates 768/3886  3.4 min
-  templates 1008/3886  4.5 min
-  templates 1248/3886  5.6 min
-  templates 1488/3886  6.6 min
-  templates 1728/3886  7.7 min
-  templates 1968/3886  8.8 min
-  templates 2208/3886  9.8 min
-  templates 2448/3886  10.9 min
-  templates 2688/3886  12.0 min
-  templates 2928/3886  13.0 min
-  templates 3168/3886  14.1 min
-  templates 3408/3886  15.1 min
-  templates 3648/3886  16.2 min
-  templates 3886/3886  17.3 min
+  templates 528/3886  2.3 min
+  templates 768/3886  3.3 min
+  templates 1008/3886  4.4 min
+  templates 1248/3886  5.4 min
+  templates 1488/3886  6.4 min
+  templates 1728/3886  7.5 min
+  templates 1968/3886  8.6 min
+  templates 2208/3886  9.6 min
+  templates 2448/3886  10.6 min
+  templates 2688/3886  11.7 min
+  templates 2928/3886  12.7 min
+  templates 3168/3886  13.7 min
+  templates 3408/3886  14.7 min
+  templates 3648/3886  15.7 min
+  templates 3886/3886  16.8 min
 === CHIRP STAGE 0 SUMMARY (copy this) ===
 event              catalog  chirp  ratio  dt ms  Mc cat Mc mine  blind
 GW231226_101520       34.7   33.4   0.96   -1.2    40.0    39.6  EVENT 33.4 at -0.0 s
@@ -118,3 +118,11 @@ GW231119_075248        8.3    8.1   0.97  -17.6    68.7    63.0  EVENT 8.1 at -0
 GW231230_170116        8.2    7.6   0.93  -23.7    69.2    71.2  other 8.9 at -114.4 s
 loudest coincident trigger in 188 s of data is the catalog event for 45 of 71 events
 median SNR ratio (mine / catalog): 0.953
+/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+[NbConvertApp] Writing 17830 bytes to __notebook__.ipynb
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+[NbConvertApp] Writing 318345 bytes to __results__.html
