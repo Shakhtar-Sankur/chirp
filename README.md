@@ -41,8 +41,28 @@ Searching blind over the whole 188 s of valid data, the loudest coincident trigg
 The remaining 3% is what non-spinning templates on a coarse grid cost against the best of the
 collaboration's pipelines.
 
-**Stage 0, all two-detector GWTC-4.0 events:** `notebooks/stage0_kaggle.py` runs the full bank against
-every event on a Kaggle GPU. Results will be added here with the raw output.
+**Stage 0, every two-detector O4a event in the catalog.** `notebooks/stage0_kaggle.py` ran the full bank
+(3886 templates) against all 76 GWTC-4.0 O4a events seen by both LIGO detectors with detector-frame chirp
+mass 5–200 M☉. Five were skipped because one detector's data has gaps. The 71 that remain were searched on
+one Kaggle Tesla T4 in 17 minutes. Raw output and per-event numbers: `results/stage0_kaggle_2026-10-29/`.
+
+| | result |
+|---|---|
+| network SNR near the catalog time, as a share of the catalog's | median **95%**; ≥ 90% for 61 of 71; lowest 78% (GW231005_091549) |
+| time of the peak against the catalog | within 50 ms for 67 of 71, all within 98 ms |
+| chirp mass against the catalog | within 10% for 51 of 71, and for 21 of the 22 below 30 M☉ |
+| loudest coincident trigger in all 188 s is the event | **45 of 71** (48 within 0.1 s) |
+
+What the misses show, and what stage 0.1 fixes:
+
+- **Glitches.** In 7 of the 23 other cases the loudest trigger is an instrumental glitch, SNR 58 to 1824,
+  far louder than any real signal. The search has no signal-consistency test yet. A χ² discriminator and
+  gating of loud transients, as the collaboration's pipelines use, are the next step.
+- **Noise near threshold.** In the other 16, a noise trigger at SNR 9 to 25 beats a quiet event (catalog
+  SNR 8 to 12). The same χ² test separates these.
+- **Heavy binaries.** For seven events with chirp mass above 50 M☉, the best template has a chirp mass
+  30–60% low. These signals last only a few cycles in band, so a non-spinning bank trades mass against spin
+  and mass ratio. Aligned-spin templates are the fix.
 
 ## Plan
 
