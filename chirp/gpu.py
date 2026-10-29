@@ -55,3 +55,50 @@ def batch_network_snr(dH, dL, invH, invL, hs, df, fs, window_s, valid, near):
         out += [v, i + a]
     out += [rH[:, near[0]:near[1]].max(dim=-1).values, rL[:, near[0]:near[1]].max(dim=-1).values]
     return out
+
+
+def batch_network_snr_clusters(dH, dL, invH, invL, hs, df, fs, window_s, first, length, count, near):
+    """As batch_network_snr, but the blind search keeps the loudest template in each of `count`
+    clusters of `length` samples starting at sample `first`, for the chi-square pass to rescore.
+
+    Returns (cluster max (count,), its template in the batch (count,), its sample (count,),
+    near max (B,), near index (B,)).
+    """
+    Fn = dH.shape[-1]
+    N = 2 * (Fn - 1)
+
+    def rho(d, inv):
+        w = hs.conj() * inv
+        sigma = torch.sqrt(4.0 * df * torch.sum((hs.real**2 + hs.imag**2) * inv, dim=-1))
+        full = torch.zeros((hs.shape[0], N), dtype=hs.dtype, device=hs.device)
+        full[:, :Fn] = 4.0 * df * d * w
+        return torch.abs(torch.fft.ifft(full, dim=-1)) * N / sigma[:, None]
+
+    rH, rL = rho(dH, invH), rho(dL, invL)
+    k = int(round(window_s * fs))
+    rLmax = F.max_pool1d(rL[:, None, :], kernel_size=2 * k + 1, stride=1, padding=k)[:, 0, :]
+    net = torch.sqrt(rH**2 + rLmax**2)
+    cl = net[:, first:first + count * length].reshape(net.shape[0], count, length)
+    v, i = cl.max(dim=-1)                       # (B, count)
+    cv, ct = v.max(dim=0)                       # (count,)
+    ci = i[ct, torch.arange(count, device=net.device)] + first + torch.arange(count, device=net.device) * length
+    nv, ni = net[:, near[0]:near[1]].max(dim=-1)
+    return cv, ct, ci, nv, ni + near[0]
+
+
+def rescore_network(dH, dL, invH, invL, h, df, fs, window_s, p=16):
+    """Network SNR and network reweighted SNR series (N,) for one template h (F,) complex64.
+
+    Each detector's SNR is reweighted by its own chi-square before the two are combined.
+    """
+    from . import veto
+
+    rH, cH = veto.snr_chisq(dH, h, invH, df, p, xp=torch)
+    rL, cL = veto.snr_chisq(dL, h, invL, df, p, xp=torch)
+    k = int(round(window_s * fs))
+
+    def net(a, b):
+        bm = F.max_pool1d(b[None, None, :], kernel_size=2 * k + 1, stride=1, padding=k)[0, 0]
+        return torch.sqrt(a**2 + bm**2)
+
+    return net(rH, rL), net(veto.newsnr(rH, cH, p, xp=torch), veto.newsnr(rL, cL, p, xp=torch))

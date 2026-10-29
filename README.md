@@ -23,6 +23,9 @@ the catalog before it looks for anything new.
 - **`chirp/gpu.py`: the search on a GPU.** Every event's data is whitened once; each template batch is
   generated once and filtered against all of them. The two LIGO detectors are combined into a coincident
   network SNR within the 10 ms light-travel time.
+- **`chirp/veto.py`: telling signals from glitches.** Gating of loud transients in whitened strain, the
+  Allen χ² discriminator over 16 frequency bins, and the reweighted SNR the PyCBC searches rank by. A
+  second GPU pass rescores the loudest template in every 1 s of data (`notebooks/stage01_kaggle.py`).
 - **`chirp/data.py`: GWOSC strain and the GWTC-4.0 event list**, fetched and cached, never redistributed.
 
 ## Results so far
