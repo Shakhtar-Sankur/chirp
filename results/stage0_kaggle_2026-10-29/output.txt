@@ -1,0 +1,120 @@
+$ rm -rf chirp && git clone -q https://github.com/Shakhtar-Sankur/chirp
+$ /usr/bin/python3 -m pip install -q lalsuite h5py certifi
+$ nvidia-smi --query-gpu=name,memory.total --format=csv
+name, memory.total [MiB]
+Tesla T4, 15360 MiB
+Tesla T4, 15360 MiB
+76 two-detector events with detector-frame chirp mass 5-200; 3886 templates
+skip GW230608_205047: H1 has gaps
+skip GW230628_231200: H1 has gaps
+skip GW230731_215307: L1 has gaps
+skip GW230819_171910: L1 has gaps
+skip GW231110_040320: H1 has gaps
+prepared 71 events in 48.6 min
+/kaggle/working/chirp/chirp/bank.py:23: UserWarning: Wswiglal-redir-stdio:
+SWIGLAL standard output/error redirection is enabled in IPython.
+This may lead to performance penalties. To disable locally, use:
+with lal.no_swig_redirect_standard_output_error():
+    ...
+To disable globally, use:
+lal.swig_redirect_standard_output_error(False)
+Note however that this will likely lead to error messages from
+LAL functions being either misdirected or lost when called from
+Jupyter notebooks.
+To suppress this warning, use:
+import warnings
+warnings.filterwarnings("ignore", "Wswiglal-redir-stdio")
+import lal
+  import lal
+  templates 48/3886  0.2 min
+  templates 288/3886  1.3 min
+  templates 528/3886  2.4 min
+  templates 768/3886  3.4 min
+  templates 1008/3886  4.5 min
+  templates 1248/3886  5.6 min
+  templates 1488/3886  6.6 min
+  templates 1728/3886  7.7 min
+  templates 1968/3886  8.8 min
+  templates 2208/3886  9.8 min
+  templates 2448/3886  10.9 min
+  templates 2688/3886  12.0 min
+  templates 2928/3886  13.0 min
+  templates 3168/3886  14.1 min
+  templates 3408/3886  15.1 min
+  templates 3648/3886  16.2 min
+  templates 3886/3886  17.3 min
+=== CHIRP STAGE 0 SUMMARY (copy this) ===
+event              catalog  chirp  ratio  dt ms  Mc cat Mc mine  blind
+GW231226_101520       34.7   33.4   0.96   -1.2    40.0    39.6  EVENT 33.4 at -0.0 s
+GW230627_015337       28.7   28.6   1.00  +13.4     6.4     6.4  EVENT 28.6 at +0.0 s
+GW231028_153006       22.4   21.2   0.95  -76.7   105.8    38.7  other 21.2 at -0.1 s
+GW231206_233901       21.9   21.1   0.96   -6.8    36.1    35.6  EVENT 21.1 at -0.0 s
+GW231123_135430       21.8   19.1   0.87  -97.9   141.4   124.7  other 19.1 at -0.1 s
+GW230927_153832       20.3   20.0   0.98  +14.6    20.1    20.1  EVENT 20.0 at +0.0 s
+GW230914_111401       17.2   16.2   0.94  +11.2    58.5    49.7  EVENT 16.2 at +0.0 s
+GW230919_215712       16.8   16.1   0.96  +19.3    26.2    24.8  EVENT 16.1 at +0.0 s
+GW231102_071736       15.6   14.8   0.95  -42.5    70.6    71.4  EVENT 14.8 at -0.0 s
+GW231224_024321       14.0   13.6   0.97  -26.9     8.5     8.5  EVENT 13.6 at -0.0 s
+GW230811_032116       13.6   13.0   0.95  -17.6    33.3    32.8  EVENT 13.0 at -0.0 s
+GW230924_124453       13.5   13.0   0.96  +33.2    31.7    31.9  EVENT 13.0 at +0.0 s
+GW230601_224134       13.4   12.7   0.95  -10.5    72.2    71.2  other 272.7 at -98.9 s
+GW230922_020344       13.4   12.4   0.92  -11.0    38.3    37.7  other 1823.9 at -47.1 s
+GW231206_233134       12.8   11.8   0.92  +19.5    41.9    42.5  EVENT 11.8 at +0.0 s
+GW231108_125142       12.6   12.6   1.00  -42.2    23.7    24.5  other 319.5 at +38.4 s
+GW230922_040658       12.5   11.5   0.92  -29.3   101.9    43.5  EVENT 11.5 at -0.0 s
+GW230927_043729       12.1   11.0   0.91  +14.4    41.1    39.6  EVENT 11.0 at +0.0 s
+GW231020_142947       12.0   11.4   0.95  -19.8    10.0     9.8  other 13.0 at -94.5 s
+GW230707_124047       11.9   10.4   0.87  +45.9    60.0    63.0  EVENT 10.4 at +0.0 s
+GW231104_133418       11.8   11.0   0.93  +42.2    11.3    11.1  EVENT 11.0 at +0.0 s
+GW231001_140220       11.5   10.5   0.91  +10.3    79.2    32.5  EVENT 10.5 at +0.0 s
+GW230605_065343       11.4   11.0   0.97   -3.2    14.5    14.4  EVENT 11.0 at -0.0 s
+GW230624_113103       11.4   10.1   0.89  +44.7    24.3    23.6  other 1497.2 at -38.5 s
+GW230814_061920       11.2   10.1   0.90  -57.4    75.4    80.8  other 10.1 at -0.1 s
+GW230606_004305       11.1   11.0   0.99  -12.9    39.2    42.5  EVENT 11.0 at -0.0 s
+GW230824_033047       11.1   10.5   0.94  +29.8    64.2    71.4  EVENT 10.5 at +0.0 s
+GW230920_071124       11.1   10.1   0.91  +22.9    35.6    35.9  EVENT 10.1 at +0.0 s
+GW231005_091549       11.0    8.6   0.78  -20.8    34.5    34.4  EVENT 8.6 at -0.0 s
+GW231118_090602       11.0   10.9   0.99   +7.3    10.5    10.5  EVENT 10.9 at +0.0 s
+GW231118_005626       10.7    9.7   0.91  +41.5    17.5    15.8  other 24.9 at -53.8 s
+GW230609_064958       10.6   10.0   0.95  -29.3    39.9    42.5  other 14.4 at +45.4 s
+GW230904_051013       10.5   10.5   1.00  +28.8     9.0     9.0  EVENT 10.5 at +0.0 s
+GW230928_215827       10.5    9.0   0.86  +17.6    59.5    38.6  other 71.0 at -34.1 s
+GW231113_200417       10.5   10.0   0.95   +5.9     9.8     9.7  EVENT 10.0 at +0.0 s
+GW231005_021030       10.4    9.7   0.93  -39.6   104.2   112.7  EVENT 9.7 at -0.0 s
+GW231213_111417       10.4   10.4   1.00   +8.8    44.1    42.5  other 10.8 at +50.8 s
+GW230709_122727       10.2    9.9   0.97   -3.7    53.8    31.0  EVENT 9.9 at -0.0 s
+GW231223_032836       10.2    9.0   0.88  -61.8    53.3    63.0  other 12.4 at +7.2 s
+GW230702_185453       10.1    9.8   0.97  +31.7    33.0    29.1  EVENT 9.8 at +0.0 s
+GW230723_101834       10.1    9.8   0.97  +40.3    14.8    15.1  other 606.5 at -82.2 s
+GW230708_230935       10.0    9.6   0.96  -32.5    67.7    55.8  EVENT 9.6 at -0.0 s
+GW231114_043211       10.0    9.9   0.99  +46.9    14.6    14.5  other 23.0 at -84.6 s
+GW231221_135041       10.0    8.5   0.85  +17.8    53.3    55.9  other 8.9 at -61.8 s
+GW230630_234532        9.9    9.8   0.99   -4.4     8.5     8.6  other 13.6 at +11.2 s
+GW231127_165300        9.9    9.4   0.95  -29.1    52.0    45.1  other 13.2 at -127.9 s
+GW240107_013215        9.6    9.8   1.02  +12.9    69.0    30.5  EVENT 9.8 at +0.0 s
+GW230712_090405        9.5    9.1   0.95  +32.0    22.2    17.6  EVENT 9.1 at +0.0 s
+GW230729_082317        9.5    9.1   0.95   -1.2    10.9    10.8  EVENT 9.1 at -0.0 s
+GW230805_034249        9.5    9.4   0.99  -38.3    36.5    34.1  EVENT 9.4 at -0.0 s
+GW230704_021211        9.4    9.4   1.00  +14.4    32.2    32.8  EVENT 9.4 at +0.0 s
+GW230803_033412        9.4    8.3   0.88   +0.7    54.3    45.1  EVENT 8.3 at +0.0 s
+GW230806_204041        9.4    9.2   0.97  +26.9    66.1    55.8  other 10.2 at -78.6 s
+GW231129_081745        9.4    8.4   0.89  +33.2    45.0    45.6  other 11.8 at +1.6 s
+GW231223_075055        9.4    9.4   1.00  +15.4     9.3     9.2  other 58.5 at -117.0 s
+GW230820_212515        9.3    9.4   1.01  -39.1    63.5    37.1  EVENT 9.4 at -0.0 s
+GW231008_142521        9.3    9.1   0.98   +9.3    43.8    45.6  EVENT 9.1 at +0.0 s
+GW230706_104333        9.2    8.7   0.95  -40.8    15.9    15.4  EVENT 8.7 at -0.0 s
+GW231118_071402        9.2    9.2   1.00  +25.4    51.2    50.3  other 10.0 at +13.4 s
+GW231018_233037        9.1    8.6   0.95  +26.6    10.2    10.2  EVENT 8.6 at +0.0 s
+GW230630_125806        9.0    8.0   0.89  -12.5    64.0    63.0  EVENT 8.0 at -0.0 s
+GW230930_110730        9.0    8.5   0.94   +1.5    43.6    42.2  other 9.0 at -11.5 s
+GW231014_040532        9.0    9.0   1.00  -19.3    21.3    19.9  EVENT 9.0 at -0.0 s
+GW230708_053705        8.9    8.9   1.00  +15.4    34.4    30.9  other 21.6 at -20.4 s
+GW231004_232346        8.9    8.3   0.93   -1.7    68.0    71.2  EVENT 8.3 at -0.0 s
+GW230825_041334        8.8    8.6   0.97  +32.7    51.9    41.6  EVENT 8.6 at +0.0 s
+GW230704_212616        8.7    8.1   0.93  +16.4   115.4   112.4  other 8.7 at +25.3 s
+GW230831_015414        8.6    8.4   0.98  -42.7    54.3    49.9  EVENT 8.4 at -0.0 s
+GW231113_122623        8.6    7.8   0.91  -34.7    43.5    37.4  EVENT 7.8 at -0.0 s
+GW231119_075248        8.3    8.1   0.97  -17.6    68.7    63.0  EVENT 8.1 at -0.0 s
+GW231230_170116        8.2    7.6   0.93  -23.7    69.2    71.2  other 8.9 at -114.4 s
+loudest coincident trigger in 188 s of data is the catalog event for 45 of 71 events
+median SNR ratio (mine / catalog): 0.953

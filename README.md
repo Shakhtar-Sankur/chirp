@@ -46,7 +46,8 @@ every event on a Kaggle GPU. Results will be added here with the raw output.
 
 ## Plan
 
-0. Re-find the published O4a events with a blind bank, and compare SNR, time and chirp mass with the catalog.
+0. Re-find the published O4a events with a blind bank, and compare SNR, time and chirp mass with the catalog
+   (done: above). 0.1: a χ² veto, gating and aligned-spin templates.
 1. Measure sensitivity by injecting simulated signals into real O4a noise.
 2. Estimate backgrounds by time slides and search below the catalog threshold, for signal classes the main
    pipelines cover less well.
