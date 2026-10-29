@@ -68,10 +68,29 @@ What the misses show, and what stage 0.1 fixes:
   30–60% low. These signals last only a few cycles in band, so a non-spinning bank trades mass against spin
   and mass ratio. Aligned-spin templates are the fix.
 
+**Stage 0.1, the same search with gating and the χ² veto.** `notebooks/stage01_kaggle.py` gates glitches in
+the whitened strain before estimating the spectrum, then rescores the loudest template in every 1 s of data
+with the Allen χ² test over 16 frequency bins and the reweighted SNR the PyCBC searches rank by. One Kaggle
+Tesla T4 ([public run](https://www.kaggle.com/code/sankurkundu/notebook43ba407303); raw output and per-event
+numbers: `results/stage01_kaggle_2026-10-29/`).
+
+| loudest trigger in 188 s is the catalog event (within 0.1 s) | events |
+|---|---|
+| stage 0, no veto | 48 of 71 |
+| gating only | 49 of 71 |
+| **gating and χ² reweighting** | **62 of 71** |
+
+- The veto costs real signals little: at the events, the reweighted SNR is a median **98%** of the plain SNR.
+  It falls most for the heaviest binaries (GW231123_135430: 19.1 → 12.9), where the non-spinning templates fit
+  worst.
+- Gating removed 56 glitches in the data around 32 of the events, and none within 1 s of an event.
+- The 9 remaining misses are all quiet events (catalog SNR 13.4 or below). Noise triggers at reweighted SNR 7.6
+  to 15.3 still edge them out. Telling those apart needs a measured background, which is stage 2.
+
 ## Plan
 
 0. Re-find the published O4a events with a blind bank, and compare SNR, time and chirp mass with the catalog
-   (done: above). 0.1: a χ² veto, gating and aligned-spin templates.
+   (done: above). 0.1: a χ² veto and gating (done: 62 of 71 blind); next, aligned-spin templates.
 1. Measure sensitivity by injecting simulated signals into real O4a noise.
 2. Estimate backgrounds by time slides and search below the catalog threshold, for signal classes the main
    pipelines cover less well.
